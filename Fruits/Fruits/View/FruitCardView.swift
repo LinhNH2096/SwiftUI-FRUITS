@@ -38,6 +38,7 @@ struct FruitCardView: View {
                 // BUTTON: START
                 StartButtonView()
             } //: VSTACK
+            .padding(.vertical, 40)
         } //: ZSTACK
         .onAppear(perform: {
             withAnimation(.easeOut(duration: 0.5)) {

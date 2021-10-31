@@ -17,7 +17,7 @@ struct FruitsApp: App {
             if isOnboarding {
                 OnboardingView()
             } else {
-                ContentView()
+                ListFruitView()
             }
         }
     }
